@@ -46,3 +46,25 @@ ls -a
 cd ..
 ls
 ls -a
+ls
+cd acapp/
+ls
+tmux
+cd ..
+git status
+git add .
+git commit -m "urls"
+git push
+cd acapp/
+git status
+git add .
+git commit -m "urls"
+git push
+cd ..
+git status
+git push
+git status
+git add .
+git status
+git commit -m "urls"
+git push
