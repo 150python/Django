@@ -68,3 +68,27 @@ git add .
 git status
 git commit -m "urls"
 git push
+ls
+git status
+git add .
+git commit -m "fdsdfd"
+git push
+cd acapp/
+git add .
+git commit -m "fdsfd"
+git push
+git push --set-upstream origin main
+git push
+git push --set-upstream origin main
+ls
+vim README.md 
+cd ..
+git status
+git add .
+git commit -m "ppppppppp"
+git push
+cd acapp/
+ls
+git add .
+git commit -m "ppppppp"
+git push
