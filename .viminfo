@@ -12,17 +12,17 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1701850008,,"wq"
+|2,0,1701851212,,"wq"
 :u
-|2,0,1698461152,,"u"
+|2,0,1701851079,,"u"
+:q
+|2,0,1701851069,,"q"
 :set paste
 |2,0,1698462974,,"set paste"
 :set nonumber
 |2,0,1698462903,,"set nonumber"
 :set nonum
 |2,0,1698462895,,"set nonum"
-:q
-|2,0,1698458671,,"q"
 :set past
 |2,0,1698411562,,"set past"
 :set noreadonly
@@ -62,265 +62,285 @@
 "0	LINE	0
 	hollywood
 |3,0,0,1,1,0,1698234194,"hollywood"
-"1	LINE	0
-	    
-|3,0,1,1,1,0,1698464524,"    "
+""1	LINE	0
+	from django.shortcuts import render
+|3,1,1,1,1,0,1701851028,"from django.shortcuts import render"
 "2	LINE	0
-	    freopen("data.in","r",stdin);
-|3,0,2,1,1,0,1698464521,"    freopen(\"data.in\",\"r\",stdin);"
+	# Create your views here.
+|3,0,2,1,1,0,1701851027,"# Create your views here."
 "3	LINE	0
-	    freopen("data.out","w",stdout);
-|3,0,3,1,1,0,1698464520,"    freopen(\"data.out\",\"w\",stdout);"
+	    
+|3,0,3,1,1,0,1698464524,"    "
 "4	LINE	0
-	
-|3,0,4,1,1,0,1698412606,""
+	    freopen("data.in","r",stdin);
+|3,0,4,1,1,0,1698464521,"    freopen(\"data.in\",\"r\",stdin);"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1698412603,""
+	    freopen("data.out","w",stdout);
+|3,0,5,1,1,0,1698464520,"    freopen(\"data.out\",\"w\",stdout);"
 "6	LINE	0
-	            ://www.acwing.com/blog/content/871/out << "yes" << endl;
-|3,0,6,1,1,0,1698412584,"            ://www.acwing.com/blog/content/871/out << \"yes\" << endl;"
-"7	LINE	0
-	            cout << "yes" << endl;
-|3,0,7,1,1,0,1698412136,"            cout << \"yes\" << endl;"
-"8	LINE	0
-	            cout << "yyy" << endl;
-|3,0,8,1,1,0,1698412134,"            cout << \"yyy\" << endl;"
-"9	CHAR	0
-	f
-	    return 0;
 	
-	}
-|3,0,9,0,4,0,1698411593,"f","    return 0;","","}"
-""-	CHAR	0
+|3,0,6,1,1,0,1698412606,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1698412603,""
+"8	LINE	0
+	            ://www.acwing.com/blog/content/871/out << "yes" << endl;
+|3,0,8,1,1,0,1698412584,"            ://www.acwing.com/blog/content/871/out << \"yes\" << endl;"
+"9	LINE	0
+	            cout << "yes" << endl;
+|3,0,9,1,1,0,1698412136,"            cout << \"yes\" << endl;"
+"-	CHAR	0
 	 
-|3,1,36,0,1,0,1698463366," "
+|3,0,36,0,1,0,1698463366," "
 
 # File marks:
-'0  108  25  ~/acapp/acapp/settings.py
-|4,48,108,25,1701850008,"~/acapp/acapp/settings.py"
-'1  11  0  ~/调试/run.sh
-|4,49,11,0,1698480366,"~/调试/run.sh"
-'2  12  14  ~/调试/sol.cpp
-|4,50,12,14,1698464585,"~/调试/sol.cpp"
-'3  12  4  ~/调试/sol.cpp
-|4,51,12,4,1698464528,"~/调试/sol.cpp"
-'4  8  0  ~/调试/check.sh
-|4,52,8,0,1698464513,"~/调试/check.sh"
-'5  17  0  ~/调试/check.sh
-|4,53,17,0,1698464456,"~/调试/check.sh"
-'6  17  0  ~/调试/check.sh
-|4,54,17,0,1698464456,"~/调试/check.sh"
-'7  12  6  ~/调试/check.sh
-|4,55,12,6,1698464362,"~/调试/check.sh"
-'8  12  6  ~/调试/check.sh
-|4,56,12,6,1698464362,"~/调试/check.sh"
-'9  12  6  ~/调试/check.sh
-|4,57,12,6,1698464362,"~/调试/check.sh"
+'0  1  0  ~/acapp/game/urls.py
+|4,48,1,0,1701851212,"~/acapp/game/urls.py"
+'1  2  0  ~/acapp/game/views.py
+|4,49,2,0,1701851094,"~/acapp/game/views.py"
+'2  1  0  ~/acapp/game/views
+|4,50,1,0,1701850436,"~/acapp/game/views"
+'3  1  4  ~/.gitignore
+|4,51,1,4,1701850156,"~/.gitignore"
+'4  108  25  ~/acapp/acapp/settings.py
+|4,52,108,25,1701850008,"~/acapp/acapp/settings.py"
+'5  11  0  ~/调试/run.sh
+|4,53,11,0,1698480366,"~/调试/run.sh"
+'6  12  14  ~/调试/sol.cpp
+|4,54,12,14,1698464585,"~/调试/sol.cpp"
+'7  12  4  ~/调试/sol.cpp
+|4,55,12,4,1698464528,"~/调试/sol.cpp"
+'8  8  0  ~/调试/check.sh
+|4,56,8,0,1698464513,"~/调试/check.sh"
+'9  17  0  ~/调试/check.sh
+|4,57,17,0,1698464456,"~/调试/check.sh"
 
 # Jumplist (newest first):
+-'  1  0  ~/acapp/game/urls.py
+|4,39,1,0,1701851212,"~/acapp/game/urls.py"
+-'  2  0  ~/acapp/game/views.py
+|4,39,2,0,1701851094,"~/acapp/game/views.py"
+-'  2  0  ~/acapp/game/views.py
+|4,39,2,0,1701851094,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851079,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851079,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views
+|4,39,1,0,1701850436,"~/acapp/game/views"
+-'  1  0  ~/acapp/game/views
+|4,39,1,0,1701850436,"~/acapp/game/views"
+-'  1  0  ~/acapp/game/views
+|4,39,1,0,1701850436,"~/acapp/game/views"
+-'  1  0  ~/acapp/game/views
+|4,39,1,0,1701850436,"~/acapp/game/views"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1701850156,"~/.gitignore"
 -'  108  25  ~/acapp/acapp/settings.py
 |4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  108  25  ~/acapp/acapp/settings.py
+|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+-'  1  0  ~/acapp/acapp/settings.py
+|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
 -'  1  0  ~/acapp/acapp/settings.py
 |4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
 -'  11  0  ~/调试/run.sh
 |4,39,11,0,1698480366,"~/调试/run.sh"
 -'  11  0  ~/调试/run.sh
 |4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
+-'  11  0  ~/调试/run.sh
+|4,39,11,0,1698480366,"~/调试/run.sh"
 -'  12  14  ~/调试/sol.cpp
 |4,39,12,14,1698464585,"~/调试/sol.cpp"
 -'  12  14  ~/调试/sol.cpp
 |4,39,12,14,1698464585,"~/调试/sol.cpp"
--'  12  4  ~/调试/sol.cpp
-|4,39,12,4,1698464528,"~/调试/sol.cpp"
--'  12  4  ~/调试/sol.cpp
-|4,39,12,4,1698464528,"~/调试/sol.cpp"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  8  0  ~/调试/check.sh
-|4,39,8,0,1698464513,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464494,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464456,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  21  ~/调试/check.sh
-|4,39,12,21,1698464430,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  12  6  ~/调试/check.sh
-|4,39,12,6,1698464362,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464318,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  17  0  ~/调试/check.sh
-|4,39,17,0,1698464310,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
--'  6  8  ~/调试/check.sh
-|4,39,6,8,1698464261,"~/调试/check.sh"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
+-'  12  14  ~/调试/sol.cpp
+|4,39,12,14,1698464585,"~/调试/sol.cpp"
 
 # History of marks within files (newest to oldest):
+
+> ~/acapp/game/urls.py
+	*	1701851212	0
+	"	1	0
+
+> ~/acapp/game/views.py
+	*	1701851093	0
+	"	2	0
+	.	3	0
+	+	4	0
+	+	2	2
+	+	3	0
+
+> ~/acapp/game/views
+	*	1701850435	0
+	"	1	0
+
+> ~/.gitignore
+	*	1701850153	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
 
 > ~/acapp/acapp/settings.py
 	*	1701850007	0
