@@ -11,14 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
-|2,0,1701860550,,"wq"
-:w
-|2,0,1701860530,,"w"
-:u
-|2,0,1701851079,,"u"
 :q
-|2,0,1701851069,,"q"
+|2,0,1701862956,,"q"
+:w
+|2,0,1701856118,,"w"
+:wq!
+|2,0,1701862893,,"wq!"
+:wq
+|2,0,1701862890,,"wq"
+:!q
+|2,0,1701862851,,"!q"
+:u
+|2,0,1701862454,,"u"
 :set paste
 |2,0,1698462974,,"set paste"
 :set nonumber
@@ -31,8 +35,6 @@
 |2,0,1698410961,,"set noreadonly"
 :.,.+44 'readonly' option is set (add ! to override)  
 |2,0,1698410933,,".,.+44 'readonly' option is set (add ! to override)  "
-:!q
-|2,0,1698410893,,"!q"
 :!wq
 |2,0,1698410833,,"!wq"
 :Wq
@@ -64,287 +66,338 @@
 "0	LINE	0
 	hollywood
 |3,0,0,1,1,0,1698234194,"hollywood"
-"1	LINE	0
-	# Django
-|3,0,1,1,1,0,1701859326,"# Django"
+""1	LINE	0
+	from game.views import index3
+|3,1,1,1,1,0,1701862844,"from game.views import index3"
 "2	LINE	0
-	# Django
-|3,0,2,1,1,0,1701859325,"# Django"
+	    path('hh/', index3),
+|3,0,2,1,1,0,1701862840,"    path('hh/', index3),"
 "3	LINE	0
-	# Django
-|3,0,3,1,1,0,1701859325,"# Django"
-"4	LINE	0
-	# Django
-|3,0,4,1,1,0,1701859325,"# Django"
+	    path('game/', include('game.urls')),
+|3,0,3,1,1,0,1701862839,"    path('game/', include('game.urls')),"
+"4	CHAR	0
+	l)
+	def index3(request):
+|3,0,4,0,2,0,1701862450,"l)","def index3(request):"
 "5	LINE	0
-	# Dja
-	# Django
-|3,0,5,1,2,0,1701859324,"# Dja","# Django"
+	from templates import DD
+|3,0,5,1,1,0,1701862444,"from templates import DD"
 "6	LINE	0
-	# Django_chenjl
-|3,0,6,1,1,0,1701859323,"# Django_chenjl"
+	# Django
+|3,0,6,1,1,0,1701859326,"# Django"
 "7	LINE	0
-	# Django_chenjl
-|3,0,7,1,1,0,1701859323,"# Django_chenjl"
+	# Django
+|3,0,7,1,1,0,1701859325,"# Django"
 "8	LINE	0
-	# Dja
-|3,0,8,1,1,0,1701859322,"# Dja"
+	# Django
+|3,0,8,1,1,0,1701859325,"# Django"
 "9	LINE	0
-	from django.shortcuts import render
-|3,0,9,1,1,0,1701851028,"from django.shortcuts import render"
-""-	CHAR	0
+	# Django
+|3,0,9,1,1,0,1701859325,"# Django"
+"-	CHAR	0
 	CYL
-|3,1,36,0,1,0,1701860511,"CYL"
+|3,0,36,0,1,0,1701860511,"CYL"
 
 # File marks:
-'0  6  31  ~/acapp/game/views.py
-|4,48,6,31,1701860550,"~/acapp/game/views.py"
-'1  1  0  ~/acapp/README.md
-|4,49,1,0,1701859328,"~/acapp/README.md"
-'2  1  0  ~/acapp/game/urls.py
-|4,50,1,0,1701851212,"~/acapp/game/urls.py"
-'3  1  0  ~/acapp/game/views.py
-|4,51,1,0,1701851094,"~/acapp/game/views.py"
-'4  2  0  ~/acapp/game/views.py
-|4,52,2,0,1701851094,"~/acapp/game/views.py"
-'5  1  0  ~/acapp/game/views
-|4,53,1,0,1701850436,"~/acapp/game/views"
-'6  1  4  ~/.gitignore
-|4,54,1,4,1701850156,"~/.gitignore"
-'7  108  25  ~/acapp/acapp/settings.py
-|4,55,108,25,1701850008,"~/acapp/acapp/settings.py"
-'8  11  0  ~/调试/run.sh
-|4,56,11,0,1698480366,"~/调试/run.sh"
-'9  12  14  ~/调试/sol.cpp
-|4,57,12,14,1698464585,"~/调试/sol.cpp"
+'0  24  0  ~/acapp/acapp/urls.py
+|4,48,24,0,1701862956,"~/acapp/acapp/urls.py"
+'1  18  0  ~/acapp/acapp/urls.py
+|4,49,18,0,1701862893,"~/acapp/acapp/urls.py"
+'2  8  0  ~/acapp/game/urls.py
+|4,50,8,0,1701862784,"~/acapp/game/urls.py"
+'3  4  17  ~/acapp/acapp/settings.py
+|4,51,4,17,1701862777,"~/acapp/acapp/settings.py"
+'4  108  17  ~/acapp/acapp/settings.py
+|4,52,108,17,1701862726,"~/acapp/acapp/settings.py"
+'5  108  17  ~/acapp/acapp/settings.py
+|4,53,108,17,1701862726,"~/acapp/acapp/settings.py"
+'6  7  36  ~/acapp/game/views.py
+|4,54,7,36,1701862506,"~/acapp/game/views.py"
+'7  2  21  ~/acapp/game/templates/DD.html
+|4,55,2,21,1701862260,"~/acapp/game/templates/DD.html"
+'8  5  31  ~/acapp/game/views.py
+|4,56,5,31,1701860550,"~/acapp/game/views.py"
+'9  6  31  ~/acapp/game/views.py
+|4,57,6,31,1701860550,"~/acapp/game/views.py"
 
 # Jumplist (newest first):
+-'  24  0  ~/acapp/acapp/urls.py
+|4,39,24,0,1701862956,"~/acapp/acapp/urls.py"
+-'  18  0  ~/acapp/acapp/urls.py
+|4,39,18,0,1701862893,"~/acapp/acapp/urls.py"
+-'  1  0  ~/acapp/acapp/urls.py
+|4,39,1,0,1701862827,"~/acapp/acapp/urls.py"
+-'  8  0  ~/acapp/game/urls.py
+|4,39,8,0,1701862784,"~/acapp/game/urls.py"
+-'  8  0  ~/acapp/game/urls.py
+|4,39,8,0,1701862784,"~/acapp/game/urls.py"
+-'  4  17  ~/acapp/acapp/settings.py
+|4,39,4,17,1701862777,"~/acapp/acapp/settings.py"
+-'  4  17  ~/acapp/acapp/settings.py
+|4,39,4,17,1701862777,"~/acapp/acapp/settings.py"
+-'  108  17  ~/acapp/acapp/settings.py
+|4,39,108,17,1701862747,"~/acapp/acapp/settings.py"
+-'  108  17  ~/acapp/acapp/settings.py
+|4,39,108,17,1701862747,"~/acapp/acapp/settings.py"
+-'  108  17  ~/acapp/acapp/settings.py
+|4,39,108,17,1701862726,"~/acapp/acapp/settings.py"
+-'  108  17  ~/acapp/acapp/settings.py
+|4,39,108,17,1701862726,"~/acapp/acapp/settings.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  7  36  ~/acapp/game/views.py
+|4,39,7,36,1701862506,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  5  29  ~/acapp/game/views.py
+|4,39,5,29,1701862454,"~/acapp/game/views.py"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  2  21  ~/acapp/game/templates/DD.html
+|4,39,2,21,1701862260,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  1  0  ~/acapp/game/templates/DD.html
+|4,39,1,0,1701862236,"~/acapp/game/templates/DD.html"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
+-'  6  31  ~/acapp/game/views.py
+|4,39,6,31,1701860550,"~/acapp/game/views.py"
 -'  6  31  ~/acapp/game/views.py
 |4,39,6,31,1701860550,"~/acapp/game/views.py"
 -'  1  0  ~/acapp/README.md
 |4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/README.md
+|4,39,1,0,1701859328,"~/acapp/README.md"
+-'  1  0  ~/acapp/acapp/urls.py
+|4,39,1,0,1701851994,"~/acapp/acapp/urls.py"
+-'  1  0  ~/acapp/game/urls.py
+|4,39,1,0,1701851708,"~/acapp/game/urls.py"
+-'  1  0  ~/acapp/game/urls.py
+|4,39,1,0,1701851708,"~/acapp/game/urls.py"
 -'  1  0  ~/acapp/game/views.py
 |4,39,1,0,1701851600,"~/acapp/game/views.py"
--'  1  0  ~/acapp/game/urls.py
-|4,39,1,0,1701851212,"~/acapp/game/urls.py"
--'  1  0  ~/acapp/game/urls.py
-|4,39,1,0,1701851212,"~/acapp/game/urls.py"
--'  1  0  ~/acapp/game/urls.py
-|4,39,1,0,1701851212,"~/acapp/game/urls.py"
--'  2  0  ~/acapp/game/views.py
-|4,39,2,0,1701851094,"~/acapp/game/views.py"
--'  2  0  ~/acapp/game/views.py
-|4,39,2,0,1701851094,"~/acapp/game/views.py"
--'  2  0  ~/acapp/game/views.py
-|4,39,2,0,1701851094,"~/acapp/game/views.py"
--'  2  0  ~/acapp/game/views.py
-|4,39,2,0,1701851094,"~/acapp/game/views.py"
 -'  1  0  ~/acapp/game/views.py
-|4,39,1,0,1701851079,"~/acapp/game/views.py"
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
 -'  1  0  ~/acapp/game/views.py
-|4,39,1,0,1701851079,"~/acapp/game/views.py"
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
 -'  1  0  ~/acapp/game/views.py
-|4,39,1,0,1701851079,"~/acapp/game/views.py"
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
 -'  1  0  ~/acapp/game/views.py
-|4,39,1,0,1701851079,"~/acapp/game/views.py"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  0  ~/acapp/game/views
-|4,39,1,0,1701850436,"~/acapp/game/views"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1701850156,"~/.gitignore"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  108  25  ~/acapp/acapp/settings.py
-|4,39,108,25,1701850008,"~/acapp/acapp/settings.py"
--'  1  0  ~/acapp/acapp/settings.py
-|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
--'  1  0  ~/acapp/acapp/settings.py
-|4,39,1,0,1701849942,"~/acapp/acapp/settings.py"
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
+-'  1  0  ~/acapp/game/views.py
+|4,39,1,0,1701851600,"~/acapp/game/views.py"
 
 # History of marks within files (newest to oldest):
 
+> ~/acapp/acapp/urls.py
+	*	1701862956	0
+	"	24	0
+	^	20	9
+	.	18	8
+	+	17	36
+	+	22	14
+	+	18	28
+	+	21	21
+	+	18	26
+	+	21	17
+	+	18	8
+
+> ~/acapp/game/urls.py
+	*	1701862783	0
+	"	8	0
+	^	1	28
+	.	1	28
+	+	1	28
+	+	5	15
+	+	8	0
+	+	6	16
+	+	2	27
+	+	6	44
+	+	7	28
+	+	3	28
+	+	7	46
+	+	5	15
+	+	7	30
+	+	6	41
+	+	7	42
+	+	6	41
+	+	7	43
+	+	1	28
+
+> ~/acapp/acapp/settings.py
+	*	1701862776	0
+	"	4	17
+	^	108	18
+	.	108	25
+	+	28	28
+	+	108	25
+
 > ~/acapp/game/views.py
-	*	1701860549	0
-	"	6	31
-	^	6	34
-	.	6	31
+	*	1701862505	0
+	"	7	36
+	^	5	36
+	.	5	35
 	+	1	0
 	+	1	2
 	+	1	36
-	+	3	19
-	+	4	41
-	+	6	30
-	+	8	17
-	+	6	31
+	+	2	19
+	+	3	41
+	+	5	30
+	+	7	17
+	+	5	24
+	+	2	28
+	+	5	30
+	+	2	0
+	+	5	35
+
+> ~/acapp/game/templates/DD.html
+	*	1701862260	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	3	0
+	+	2	21
 
 > ~/acapp/README.md
 	*	1701859328	0
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/acapp/game/urls.py
-	*	1701851212	0
-	"	1	0
 
 > ~/acapp/game/views
 	*	1701850435	0
@@ -356,14 +409,6 @@
 	^	1	5
 	.	1	4
 	+	1	4
-
-> ~/acapp/acapp/settings.py
-	*	1701850007	0
-	"	108	25
-	^	108	26
-	.	108	25
-	+	28	28
-	+	108	25
 
 > ~/调试/run.sh
 	*	1698480365	0

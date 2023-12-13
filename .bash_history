@@ -92,3 +92,16 @@ ls
 git add .
 git commit -m "ppppppp"
 git push
+ls
+tmux a
+git status
+git add .
+git status
+git commit -m "dfsdfdfsdfdsfdsf"
+git push
+tmux a
+ls
+cd acapp/
+ls
+python3 manage.py runserver 0.0.0.0:8000
+tmux a
