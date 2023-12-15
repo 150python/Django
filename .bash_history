@@ -105,3 +105,83 @@ cd acapp/
 ls
 python3 manage.py runserver 0.0.0.0:8000
 tmux a
+ls
+cd acapp/
+ls
+cd ..
+git status
+git add .
+git commit -m "fdsfd"
+git push
+ls
+cd acapp/
+cd game/
+vim urls.py 
+ls
+rm urls.py 
+ls
+ls -a
+cd ../acapp/
+ls
+ls -a
+rm .urls.py.sw*
+ls
+cd ..
+cd game/
+ls
+cd urls/
+ls
+cd ..
+cd views/
+ls
+cd ..
+cd views/
+ls
+cd ..
+cd models/
+ls
+cd ..
+ls
+vim apps.py 
+cd acapp/
+ls
+vim settings.py 
+cd ..
+ls
+git status
+cd ..
+git status
+git add .
+git commit -m "sdasdsd"
+git push
+vim .gitignore
+cd acapp/
+python3 manage.py startapp game
+python3 manage.py migrate 
+python3 manage.py createsuperuser
+cd game/
+touch urls.py
+mkdir templates
+vim views
+ls
+cd .
+cd ..
+cd acapp/
+ls
+cd ..
+cd game/
+ls
+cd ~
+git status
+cd acapp/
+cd game/
+cd ..
+ls
+cd acapp/
+ls
+vim urls.py 
+ls
+vim settings.py 
+ls
+ls -a
+rm .settings.py.swo 
