@@ -185,3 +185,18 @@ vim settings.py
 ls
 ls -a
 rm .settings.py.swo 
+cd acapp/
+ls
+tmux a
+cd ..
+git status
+git add .
+git commit -m "fdsdfdsf"
+git push
+ls
+cd acapp/
+ls
+cd ..
+cd game/
+ls
+ls
