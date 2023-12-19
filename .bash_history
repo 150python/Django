@@ -200,3 +200,15 @@ cd ..
 cd game/
 ls
 ls
+ls
+cd ~
+ls
+cd acapp/
+ls
+tmux
+ls
+tmux a
+ls
+cd acapp/
+tmux a
+tmux
